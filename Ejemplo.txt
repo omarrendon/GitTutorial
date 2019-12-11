@@ -1,0 +1,36 @@
+Primera version del curso de Git
+
+- Para iniciar Git
+git init
+
+- Para crear registar un usuario en Git
+git config --global user.name "Nombre"
+
+- Para crear registar un correo en Git
+git config --global user.email "Email"
+
+- Para checar el status de un proyecto (situarse dentro de la carpeta)
+git status 
+
+{
+    Git se divide en tres areas de trabajo:
+    Working Directory: Este es nuestro directorio donde estamos manteniendo nuestros archivos
+    Staging Area: Esta area hace referencia a crear una copia de nuestro repositorio en producción
+    Git Repository: En esta parte hace referencia a que ya esta listo para publicarse en nuestro repositorio (Github)
+}
+
+- Para pasar archivos del Working Directory al Staging Area
+git add NombreDelArchivo.js O git add . (Para pasar todos los archivos)
+
+- Para poder quitar un archivo del Staging Area
+git rm --cached NombreDelArchivo
+
+- Para pasar nuestro código de staging area al Git Repository (aun no se publica el código en Github)
+git commit -m "Nombre de la nueva version"
+
+{
+    *Commit: Commit sirve para realizar un guardado dentro de nuestra Staging Area 
+    y que para despues podamos volver a ese commit guardado
+}
+
+
