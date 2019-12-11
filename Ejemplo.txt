@@ -41,3 +41,19 @@ git checkout 'CodigoDelCommit'
 
 - Para poder regresar al último commit 
 git checkout master
+
+{
+    DIFERENCIA ENTRE "HEAD" Y "MASTER"
+    HEAD: Hace referencia al status actual de tu proyecto. Al ultimo salto o "checkout" 
+    MASTER: Es el último commit hecho
+}
+{
+    RESET
+    Para poder eliminar commit´s se usa el comendo reset, y este tiene 3 categorias las cuales son:
+    soft: Este borra todos los commit´s anteriores al commit en que te situaste pero no elimina ningun cambio del proyecto ni del código, solo borra los commit´s
+        - git rest --soft CódigoDelCommit
+    hard: Este borra todos los commit´s anterios al que se esta situado y también borra en el proyecto y en el código
+        - git reset --hard CodigoDelCommit
+    mixed: Este borra todos los commit´s y los cambios de tu proyecto pero no de tu código
+        - git reset --mixed CodigoDelCommit
+}
