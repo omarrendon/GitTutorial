@@ -33,4 +33,10 @@ git commit -m "Nombre de la nueva version"
     y que para despues podamos volver a ese commit guardado
 }
 
+- Para ver los commit´s que hemos hecho 
+git log
 
+- Para poder regresar a un commit anterior de los que ya hemos registrado
+git checkout CodigoDelCommit
+
+-
