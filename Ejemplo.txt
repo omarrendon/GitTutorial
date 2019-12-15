@@ -31,16 +31,17 @@ git commit -m "Nombre de la nueva version"
 {
     *Commit: Commit sirve para realizar un guardado dentro de nuestra Staging Area 
     y que para despues podamos volver a ese commit guardado
+    
+    - Para ver los commit´s que hemos hecho 
+    git log
+
+    - Para poder regresar a un commit anterior de los que ya hemos registrado
+    git checkout 'CodigoDelCommit'
+
+    - Para poder regresar al último commit 
+    git checkout master
 }
 
-- Para ver los commit´s que hemos hecho 
-git log
-
-- Para poder regresar a un commit anterior de los que ya hemos registrado
-git checkout 'CodigoDelCommit'
-
-- Para poder regresar al último commit 
-git checkout master
 
 {
     DIFERENCIA ENTRE "HEAD" Y "MASTER"
@@ -56,4 +57,17 @@ git checkout master
         - git reset --hard CodigoDelCommit
     mixed: Este borra todos los commit´s y los cambios de tu proyecto pero no de tu código
         - git reset --mixed CodigoDelCommit
+}
+{
+    BRANCH
+    Un Branch es una "rama" o una bifurcación que puede tener un proyecto
+
+    - Para poder ver todas las ramas que tiene nuestro proyecto
+    git branch
+
+    - Para poder crear una nueva rama 
+    git branch NombreDeLaRama
+
+    - Para poder ir a una rama creada 
+    git checkout Nombre   
 }
