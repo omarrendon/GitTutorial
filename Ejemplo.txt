@@ -88,6 +88,14 @@ git commit -m "Nombre de la nueva version"
     git push -u origin master 
 
     - Para poder actualizar ese repositorio con nuevos cambios 
-    git remote add origin RutaDelRepositorio
-    git push -u origin master 
+    (Hacemos primero un nuevo commit con la descripción de los cambios)
+    git push origin RamaEnLaQueEspesifiquemos 
+
+    {
+        FORKS DE PROYECTOS
+
+        Con los forks de los proyectos podremos hacer una versión propia a partir de un proyecto ya
+        existente y este se guardar como repositorio nuestro pero siempre respetando la propiedad de 
+        quien se le hizo fork 
+    }    
 }
