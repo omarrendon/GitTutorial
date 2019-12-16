@@ -83,5 +83,11 @@ git commit -m "Nombre de la nueva version"
     - Para poder clonar un repositorio
     git clone URLDelRepositorio
 
-    
+    - Para subir un proyecto a un repositorio en Github 
+    git remote add origin RutaDelRepositorio
+    git push -u origin master 
+
+    - Para poder actualizar ese repositorio con nuevos cambios 
+    git remote add origin RutaDelRepositorio
+    git push -u origin master 
 }
