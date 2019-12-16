@@ -69,5 +69,19 @@ git commit -m "Nombre de la nueva version"
     git branch NombreDeLaRama
 
     - Para poder ir a una rama creada 
-    git checkout Nombre   
+    git checkout NombreDeLaRama 
+
+    - Para fusionar una rama con la rama master (debes ubicarte en la rama master para poder hacerlo)
+    git merge NombreDeLaRamaCreada
+
+    - Para poder eliminar una rama(No se borrara el contenido que llegues a fusionar con la rama master)
+    git branch NombreDeLaRama -d
+}
+{
+    TRABAJAR EN Github
+
+    - Para poder clonar un repositorio
+    git clone URLDelRepositorio
+
+    
 }
